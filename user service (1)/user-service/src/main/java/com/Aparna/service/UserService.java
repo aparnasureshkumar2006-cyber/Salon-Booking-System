@@ -1,7 +1,7 @@
 package com.Aparna.service;
 
 import com.Aparna.exception.UserException;
-import com.Aparna.modal.User;
+import com.Aparna.model.User;
 
 import java.util.List;
 

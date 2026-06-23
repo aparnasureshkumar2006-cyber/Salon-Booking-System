@@ -1,4 +1,4 @@
-package com.aparna.modal;
+package com.aparna.model;
 
 import jakarta.persistence.*;
 import lombok.*;

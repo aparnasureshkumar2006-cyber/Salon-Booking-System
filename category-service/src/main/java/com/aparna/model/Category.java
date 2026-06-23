@@ -1,4 +1,4 @@
-package com.aparna.modal;
+package com.aparna.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -16,6 +16,6 @@ public class Category {
 
     private String image;
 
-    @Column(nullable=false)
+    @Column(nullable = false)
     private Long salonId;
 }

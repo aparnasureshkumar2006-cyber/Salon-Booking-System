@@ -1,6 +1,6 @@
 package com.aparna.mapper;
 
-import com.aparna.modal.Salon;
+import com.aparna.model.Salon;
 import com.aparna.payload.dto.SalonDTO;
 
 public class SalonMapper {

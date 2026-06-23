@@ -1,7 +1,7 @@
 package com.Aparna.service.impl;
 
 import com.Aparna.exception.UserException;
-import com.Aparna.modal.User;
+import com.Aparna.model.User;
 import com.Aparna.repository.UserRepository;
 import com.Aparna.service.UserService;
 import lombok.RequiredArgsConstructor;
@@ -9,8 +9,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-
-import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
 
 @Service
 @RequiredArgsConstructor

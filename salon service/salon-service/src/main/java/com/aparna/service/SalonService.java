@@ -1,6 +1,6 @@
 package com.aparna.service;
 
-import com.aparna.modal.Salon;
+import com.aparna.model.Salon;
 import com.aparna.payload.dto.SalonDTO;
 import com.aparna.payload.dto.UserDTO;
 

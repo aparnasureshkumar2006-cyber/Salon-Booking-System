@@ -1,7 +1,7 @@
 package com.aparna.controller;
 
 import com.aparna.mapper.SalonMapper;
-import com.aparna.modal.Salon;
+import com.aparna.model.Salon;
 import com.aparna.payload.dto.SalonDTO;
 import com.aparna.payload.dto.UserDTO;
 import com.aparna.service.SalonService;

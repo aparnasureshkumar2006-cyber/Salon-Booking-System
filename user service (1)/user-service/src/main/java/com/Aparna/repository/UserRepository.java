@@ -1,6 +1,6 @@
 package com.Aparna.repository;
 
-import com.Aparna.modal.User;
+import com.Aparna.model.User;
 import jakarta.persistence.metamodel.SingularAttribute;
 import org.springframework.data.jpa.domain.AbstractPersistable;
 import org.springframework.data.jpa.repository.JpaRepository;

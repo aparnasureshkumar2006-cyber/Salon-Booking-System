@@ -1,7 +1,7 @@
 package com.aparna.controller;
 
 
-import com.aparna.modal.Category;
+import com.aparna.model.Category;
 import com.aparna.service.CategoryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

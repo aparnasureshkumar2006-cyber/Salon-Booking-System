@@ -1,6 +1,6 @@
 package com.aparna.repository;
 
-import com.aparna.modal.Salon;
+import com.aparna.model.Salon;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

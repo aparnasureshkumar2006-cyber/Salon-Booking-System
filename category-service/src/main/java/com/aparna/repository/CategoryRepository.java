@@ -1,6 +1,6 @@
 package com.aparna.repository;
 
-import com.aparna.modal.Category;
+import com.aparna.model.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Set;

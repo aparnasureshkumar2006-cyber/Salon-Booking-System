@@ -1,7 +1,7 @@
 package com.aparna.service.impl;
 
 import com.aparna.dto.SalonDTO;
-import com.aparna.modal.Category;
+import com.aparna.model.Category;
 import com.aparna.repository.CategoryRepository;
 import com.aparna.service.CategoryService;
 import lombok.RequiredArgsConstructor;
@@ -41,7 +41,7 @@ public class CategoryServiceImpl implements CategoryService {
     @Override
     public void deleteCategoryById(Long id,Long salonId) throws Exception {
         Category category = getCategoryById(id);
-        if(category.getSalonId().equals(salonId)){
+        if(category.getSalonId() != null && category.getSalonId().equals(salonId)){
             throw new Exception("Category not exist with id" + id);
         }
         categoryRepository.deleteById(id);

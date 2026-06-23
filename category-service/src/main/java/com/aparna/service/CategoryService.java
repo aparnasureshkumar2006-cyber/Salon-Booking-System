@@ -1,7 +1,7 @@
 package com.aparna.service;
 
 import com.aparna.dto.SalonDTO;
-import com.aparna.modal.Category;
+import com.aparna.model.Category;
 
 import java.util.Set;
 
