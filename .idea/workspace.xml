@@ -4,48 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc6b9e96-0975-492a-9a58-30af4450ab71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service offering/service-offering/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service offering/service-offering/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service offering/service-offering/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service offering/service-offering/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service offering/service-offering/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service offering/service-offering/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service offering/service-offering/src/main/java/com/aparna/ServiceOfferingApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service offering/service-offering/src/main/java/com/aparna/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service offering/service-offering/src/main/java/com/aparna/dto/CategoryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service offering/service-offering/src/main/java/com/aparna/dto/SalonDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service offering/service-offering/src/main/java/com/aparna/dto/ServiceDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service offering/service-offering/src/main/java/com/aparna/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service offering/service-offering/src/main/java/com/aparna/model/ServiceOffering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service offering/service-offering/src/main/java/com/aparna/repository/ServiceOfferingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service offering/service-offering/src/main/java/com/aparna/service/ServiceOfferingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service offering/service-offering/src/main/java/com/aparna/service/impl/ServiceOfferingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service offering/service-offering/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service offering/service-offering/src/test/java/com/aparna/ServiceOfferingApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="4cce938e-d79d-47c2-a575-dbd0fc2c8de7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/aparna/dto/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/aparna/dto/SalonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/aparna/dto/ServiceDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/aparna/dto/UserDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/aparna/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/aparna/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/aparna/controller/SalonCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/aparna/controller/SalonCategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/aparna/modal/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/aparna/model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/aparna/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/aparna/repository/CategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/aparna/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/aparna/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category-service/src/main/java/com/aparna/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/java/com/aparna/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salon service/salon-service/src/main/java/com/aparna/controller/SalonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/salon service/salon-service/src/main/java/com/aparna/controller/SalonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salon service/salon-service/src/main/java/com/aparna/mapper/SalonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/salon service/salon-service/src/main/java/com/aparna/mapper/SalonMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salon service/salon-service/src/main/java/com/aparna/modal/Salon.java" beforeDir="false" afterPath="$PROJECT_DIR$/salon service/salon-service/src/main/java/com/aparna/model/Salon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salon service/salon-service/src/main/java/com/aparna/repository/SalonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/salon service/salon-service/src/main/java/com/aparna/repository/SalonRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salon service/salon-service/src/main/java/com/aparna/service/SalonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/salon service/salon-service/src/main/java/com/aparna/service/SalonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salon service/salon-service/src/main/java/com/aparna/service/impl/SalonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/salon service/salon-service/src/main/java/com/aparna/service/impl/SalonServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user service (1)/user-service/src/main/java/com/Aparna/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user service (1)/user-service/src/main/java/com/Aparna/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user service (1)/user-service/src/main/java/com/Aparna/modal/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user service (1)/user-service/src/main/java/com/Aparna/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user service (1)/user-service/src/main/java/com/Aparna/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user service (1)/user-service/src/main/java/com/Aparna/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user service (1)/user-service/src/main/java/com/Aparna/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user service (1)/user-service/src/main/java/com/Aparna/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user service (1)/user-service/src/main/java/com/Aparna/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user service (1)/user-service/src/main/java/com/Aparna/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service offering/service-offering/src/main/java/com/aparna/dto/ServiceDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/service offering/service-offering/src/main/java/com/aparna/dto/ServiceDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +23,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -63,18 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;aparnasureshkumar2006-cyber&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "aparnasureshkumar2006-cyber"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/aparnasureshkumar2006-cyber/Salon-Booking-System&quot;,
-    &quot;accountId&quot;: &quot;1c41b500-959a-459c-b7c8-0b64e811697e&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/aparnasureshkumar2006-cyber/Salon-Booking-System",
+    "accountId": "1c41b500-959a-459c-b7c8-0b64e811697e"
   }
-}</component>
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -82,11 +49,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 8
-}</component>
-  <component name="ProjectId" id="3FWXNeAU0A8koZb3y9BHJwhzvrz" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="3FZNIHazN8ZCqt0hglhM56tofIA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -95,17 +62,19 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.ServiceOfferingApplication.executor": "Run",
+    "Spring Boot.BookingServiceApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/microservice/service offering/service-offering/src/main/java/com/aparna"
+    "last_opened_file_path": "D:/microservice/booking-service/src/main/java/com/aparna"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.aparna.dto" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\microservice\service offering\service-offering\src\main\java\com\aparna" />
+      <recent name="D:\microservice\booking-service\src\main\java\com\aparna" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -117,11 +86,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cc6b9e96-0975-492a-9a58-30af4450ab71" name="Changes" comment="" />
-      <created>1782191765521</created>
+      <changelist id="4cce938e-d79d-47c2-a575-dbd0fc2c8de7" name="Changes" comment="" />
+      <created>1782278554628</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1782191765521</updated>
+      <updated>1782278554628</updated>
     </task>
     <servers />
   </component>
