@@ -1,6 +1,5 @@
 package com.aparna.dto;
 
-import com.aparna.payload.dto.UserDTO;
 import lombok.Data;
 
 import java.time.LocalTime;
@@ -17,7 +16,6 @@ public class SalonDTO {
     private String email;
     private String city;
     private Long ownerId;
-    private UserDTO owner;
     private LocalTime openTime;
     private LocalTime closeTime;
 }

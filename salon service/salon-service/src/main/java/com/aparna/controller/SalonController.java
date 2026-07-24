@@ -36,7 +36,9 @@ public class SalonController {
         SalonDTO salonDTO1 = SalonMapper.mapToDTO(salon);
         return ResponseEntity.ok(salonDTO1);
     }
-     public ResponseEntity<List<SalonDTO>> getSalons() throws Exception{
+
+    @GetMapping
+    public ResponseEntity<List<SalonDTO>> getSalons() throws Exception{
         List<Salon> salons = salonService.getAllSalon();
         List<SalonDTO> salonDTOS = salons.stream().map(salon ->
         {

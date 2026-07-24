@@ -1,6 +1,6 @@
 package com.aparna.dto;
 
-import com.aparna.payload.dto.UserDTO;
+import com.aparna.dto.UserDTO;
 import lombok.Data;
 
 import java.time.LocalTime;
